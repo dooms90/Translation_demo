@@ -1,3 +1,5 @@
 # Translation_demo
 My first repository of translation web application
-Created by using Html,CSS, JS
+<br>
+Created  this project by using Html,CSS, JS
+for the backend i had used django framework along with the python 
