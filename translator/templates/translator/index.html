@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Linguist AI Translator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; }
+        .landing {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            display: flex; align-items: center; justify-content: center;
+            text-align: center; padding: 40px;
+        }
+        .hero h1 { font-size: 4em; color: white; font-weight: 900; margin-bottom: 20px; }
+        .hero p { font-size: 1.3em; color: rgba(255,255,255,0.9); margin-bottom: 40px; }
+        .btn-start {
+            padding: 20px 60px; background: white; color: #667eea;
+            border: none; border-radius: 50px; font-size: 1.3em;
+            font-weight: 700; cursor: pointer; text-decoration: none;
+            display: inline-block; transition: transform 0.3s;
+        }
+        .btn-start:hover { transform: translateY(-5px); }
+        .logo { font-size: 100px; margin-bottom: 20px; display: block; }
+    </style>
+</head>
+<body>
+    <div class="landing">
+        <div class="hero">
+            <span class="logo">🌐</span>
+            <h1>Linguist AI Translator</h1>
+            <p>AI-powered translation for 22+ Indian Languages</p>
+            <a href="{% url 'translator_app' %}" class="btn-start">
+                <i class="fas fa-rocket"></i> Start Translating
+            </a>
+        </div>
+    </div>
+</body>
+</html>
