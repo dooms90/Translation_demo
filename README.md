@@ -3,7 +3,6 @@ My first repository of translation web application
 <br>
 Created  this project by using Html,CSS, JS
 for the backend i had used django framework along with the python 
-Created by using Html,CSS, JS
 <b>
 For the backend i had used Django framework 
 
