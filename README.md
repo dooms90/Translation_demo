@@ -37,8 +37,5 @@ translation-web-app/
 ├── static/
 │   ├── css/
 │   ├── js/
-│   └── images/
-│
-
-GitHub: https://github.com/your-username 
+│   └── images/ 
 
