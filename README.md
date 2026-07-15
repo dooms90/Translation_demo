@@ -22,7 +22,7 @@ A simple and user-friendly Language Translation Web Application built using Pyth
 - Google Translate API / Translation Library
 
 ## 📂 Project Structure
-'''
+
 translation-web-app/
 │
 ├── app.py
@@ -38,4 +38,3 @@ translation-web-app/
 │   ├── css/
 │   ├── js/
 │   └── images/ 
-'''
