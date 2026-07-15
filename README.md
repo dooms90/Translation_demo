@@ -23,18 +23,22 @@ A simple and user-friendly Language Translation Web Application built using Pyth
 
 ## 📂 Project Structure
 
+## 📁 Project Structure
+
+```text
 translation-web-app/
 │
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
+├── app.py                 
+├── requirements.txt       
+├── README.md              
+├── .gitignore           
 │
-├── templates/
-│   ├── index.html
-│   └── translator.html
+├── templates/            
+│   ├── index.html         
+│   └── translator.html   
 │
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── images/ 
+└── static/                
+    ├── css/               
+    ├── js/               
+    └── images/            
+```
